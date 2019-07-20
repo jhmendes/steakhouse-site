@@ -1,0 +1,23 @@
+/** Variables - Colors, Fonts, Sizing **/
+:root {
+    --primary-color: #181717;
+    --secondary-color: #D19F76;
+    // --secondary-color-light: #DCBA9E;
+    --color-white: #fff;
+    --primary-font: 'Volkhov', serif;
+    --secondary-font: 'Sacramento', cursive;
+    --max-width: 1200px;
+}
+
+html {
+    font-family: var(--main-font);
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+
+/** Breakpoints - add these in later **/
