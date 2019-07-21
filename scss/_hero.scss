@@ -1,0 +1,38 @@
+.hero {
+
+    color: var(--color-white);
+    height: 100vh;
+
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+       align-self: flex-start;
+        position: relative;
+        top: 150px;
+        h2 {
+            font-size: 6rem;
+            margin-bottom: 6rem;
+
+        
+        }
+        span {
+            display: block;
+            line-height: 1.2;
+        }
+
+        
+
+    }
+
+    &__image {
+       align-self: flex-start;
+       width: 70%;
+        img {
+            width: 100%;
+        }
+    }
+}
