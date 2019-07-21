@@ -15,12 +15,19 @@
     }
 }
 
-.section-title {
 
+
+.fancy-title {
+        font-size: 4rem;
+         font-family: var(--secondary-font);
+         color: var(--secondary-color);
+         display: block;
 }
 
-.food-section-title {
-    
+.section-title {
+    font-size: 4.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 
