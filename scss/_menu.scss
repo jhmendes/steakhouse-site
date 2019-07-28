@@ -1,0 +1,56 @@
+.menu {
+    color: #fff;
+    img {
+        border-radius: 50%;
+    }
+
+    &__items {
+
+    }
+
+    &__item {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3rem;
+        font-size: 1.7rem;
+
+        &-info {
+            width: 30%;
+            line-height: 1.4;
+            .section-title {
+                color: #fff;
+            }
+
+            .fancy-title {
+                margin-bottom: 2.7rem;
+            }
+        }
+        
+    }
+
+
+
+    //Indivdual sections of the grid 
+    .m- {
+        &1{
+           p {
+               width: 400px;
+           }
+        }
+        &2{
+            
+        }
+        &3{
+            
+        }
+        &4{
+            
+        }
+        &5{
+            
+        }
+    }
+}
