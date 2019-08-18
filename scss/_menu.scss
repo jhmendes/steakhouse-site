@@ -25,7 +25,7 @@
             }
 
             .fancy-title {
-                margin-bottom: 2.7rem;
+                margin-bottom: 2rem;
             }
         }
         
@@ -36,8 +36,16 @@
     //Indivdual sections of the grid 
     .m- {
         &1{
+
+            justify-content: center;
+            margin-bottom: 100px;
+
+            .fancy-title {
+                margin-bottom: 0;
+            }
            p {
                width: 400px;
+               line-height: 1.6;
            }
         }
         &2{

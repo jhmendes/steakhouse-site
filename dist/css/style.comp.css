@@ -59,9 +59,6 @@ html {
   font-size: 62.5%;
   background-color: var(--primary-color); }
 
-section {
-  margin-bottom: 10rem; }
-
 .container {
   max-width: var(--max-width);
   margin: 0 auto; }
@@ -171,7 +168,7 @@ section {
   margin-bottom: 10rem; }
   .card__items {
     display: flex;
-    height: 450px; }
+    height: 400px; }
   .card__img {
     flex-basis: 100%; }
     .card__img img {
@@ -182,7 +179,7 @@ section {
     background: #fff; }
     .card__info p {
       font-size: 1.6rem;
-      line-height: 1.7; }
+      line-height: 1.5; }
   .card__link {
     font-size: 1.7rem;
     color: var(--secondary-color);
@@ -193,9 +190,6 @@ section {
   .card i {
     font-size: 1.7rem;
     color: var(--secondary-color); }
-  .card.events .event-info {
-    text-align: right;
-    margin-bottom: 3rem; }
 
 .menu {
   color: #fff; }
@@ -214,12 +208,6 @@ section {
       .menu__item-info .section-title {
         color: #fff; }
       .menu__item-info .fancy-title {
-        margin-bottom: 2rem; }
-  .menu .m-1 {
-    justify-content: center;
-    margin-bottom: 100px; }
-    .menu .m-1 .fancy-title {
-      margin-bottom: 0; }
-    .menu .m-1 p {
-      width: 400px;
-      line-height: 1.6; }
+        margin-bottom: 2.7rem; }
+  .menu .m-1 p {
+    width: 400px; }
