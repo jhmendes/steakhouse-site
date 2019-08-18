@@ -1,4 +1,8 @@
 /** Variables - Colors, Fonts, Sizing **/
+$bp-desktop: 1160px;
+
+$bp-tablet: 768px;
+
 :root {
     --primary-color: #181717;
     --secondary-color: #D19F76;
@@ -22,7 +26,14 @@ section {
 .container {
     max-width: var(--max-width);
     margin: 0 auto;
+    @media screen and (max-width: $bp-desktop) {
+        max-width: 1000px;
+        margin: 0 auto;
+     }
 }
 
 
-/** Breakpoints - add these in later **/
+/** Breakpoints **/
+
+
+

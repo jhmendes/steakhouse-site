@@ -15,10 +15,20 @@
        align-self: flex-start;
         position: relative;
         top: 150px;
+
+        @media screen and (max-width: $bp-desktop) {
+            left: 150px;
+         }
+         @media screen and (max-width: $bp-tablet) {
+            left: 50px;
+            top: 50px;
+         }
         h2 {
             font-size: 5.2rem;
             margin-bottom: 8rem;
-
+            @media screen and (max-width: $bp-tablet) {
+                font-size: 4rem;
+             }
         
         }
         span {
@@ -33,6 +43,10 @@
     &__image {
        align-self: flex-start;
        width: 70%;
+
+       @media screen and (max-width: $bp-desktop) {
+        width: 60%;
+     }
         img {
             width: 100%;
         }
