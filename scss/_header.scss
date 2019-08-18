@@ -32,14 +32,14 @@
                  transition: all .2s ease-in-out;
 
                  &:hover {
-                    border-bottom: 1px solid var(--secondary-color);
+                    border-bottom: 3px solid var(--secondary-color);
                     padding-bottom: 5px;
                  }
             }
 
          li a.active {
-           border-bottom: 1px solid var(--secondary-color);
-           padding-bottom: 8px;
+           border-bottom: 3px solid var(--secondary-color);
+           padding-bottom: 5px;
            font-weight: bold;
          }
 
