@@ -273,8 +273,8 @@ section {
     background-image: url(../img/eggs.jpg); }
   .menu .m-3__img {
     background-image: url(../img/steak.jpg);
-    height: 400px;
-    width: 400px; }
+    height: 300px;
+    width: 300px; }
     @media screen and (min-width: 768px) {
       .menu .m-3__img {
         height: 450px;
@@ -328,7 +328,11 @@ footer {
   footer .container {
     display: flex;
     justify-content: space-between;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    flex-direction: column; }
+    @media screen and (min-width: 768px) {
+      footer .container {
+        flex-direction: row; } }
   footer p.title {
     color: var(--secondary-color);
     font-size: 2rem;
