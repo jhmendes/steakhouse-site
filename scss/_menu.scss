@@ -11,13 +11,29 @@
     }
 
     &__item {
-
         display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5rem;
+        font-size: 1.7rem;
+        text-align: center;
+        // border: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        padding: 40px;
+
+
+        @media screen and (min-width: $bp-tablet) {
+            display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 3rem;
         font-size: 1.7rem;
+         }
+
+        
 
         &-info {
             width: 30%;
@@ -98,6 +114,15 @@ box-shadow: 0px 0px 45px -5px rgba(255,255,255,1);
          .m-5__img {
             @extend %menu-item-shared;
             background-image: url(../img/cake.jpg);
+         }
+
+       
+           @media screen and (max-width: $bp-tablet) {
+            .m-1__img, .m-2__img, .m-3__img, .m-4__img, .m-5__img {
+                width: 175px;
+                height: 175px;
+                margin: 30px;
+            }
          }
 
         

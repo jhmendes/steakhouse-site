@@ -234,10 +234,22 @@ section {
   .menu__item {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
-    font-size: 1.7rem; }
+    margin-bottom: 5rem;
+    font-size: 1.7rem;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding: 40px; }
+    @media screen and (min-width: 768px) {
+      .menu__item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3rem;
+        font-size: 1.7rem; } }
     .menu__item-info {
       width: 30%;
       line-height: 1.4; }
@@ -285,6 +297,11 @@ section {
     width: 375px; }
   .menu .m-5__img {
     background-image: url(../img/cake.jpg); }
+  @media screen and (max-width: 768px) {
+    .menu .m-1__img, .menu .m-2__img, .menu .m-3__img, .menu .m-4__img, .menu .m-5__img {
+      width: 175px;
+      height: 175px;
+      margin: 30px; } }
 
 .ingredients__info {
   display: block;
