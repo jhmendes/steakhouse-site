@@ -78,7 +78,8 @@ section {
   font-size: 2rem;
   color: #fff;
   text-decoration: none;
-  transition: all .3s ease-in-out; }
+  transition: all .3s ease-in-out;
+  flex: 1 1 100%; }
   .btn:hover {
     background: var(--secondary-color);
     color: #fff;
@@ -186,6 +187,9 @@ section {
 
 .card {
   margin-bottom: 13rem; }
+  @media screen and (max-width: 376px) {
+    .card {
+      margin-bottom: 5rem; } }
   .card__items {
     display: block; }
     @media screen and (min-width: 768px) {
@@ -242,6 +246,9 @@ section {
     text-align: center;
     border-bottom: 1px solid #fff;
     padding: 40px; }
+    @media screen and (max-width: 376px) {
+      .menu__item {
+        padding: 0; } }
     @media screen and (min-width: 768px) {
       .menu__item {
         display: flex;
@@ -253,6 +260,10 @@ section {
     .menu__item-info {
       width: 30%;
       line-height: 1.4; }
+      @media screen and (max-width: 376px) {
+        .menu__item-info {
+          width: 100%;
+          margin-bottom: 2rem; } }
       .menu__item-info .section-title {
         color: #fff; }
       .menu__item-info .fancy-title {
@@ -309,6 +320,10 @@ section {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 7rem; }
+  @media screen and (max-width: 376px) {
+    .ingredients__info {
+      width: 100%;
+      padding: 0 20px; } }
   .ingredients__info .section-title {
     color: #fff;
     margin-bottom: 3rem; }
@@ -329,6 +344,9 @@ section {
   background-size: cover;
   background-position: center bottom;
   padding: 15rem; }
+  @media screen and (max-width: 376px) {
+    .booktable {
+      padding: 5rem; } }
   .booktable .fancy-title {
     color: #fff;
     margin-bottom: 5rem; }
@@ -336,12 +354,18 @@ section {
     color: #fff;
     margin-bottom: 6rem;
     font-size: 6rem; }
+    @media screen and (max-width: 376px) {
+      .booktable .section-title {
+        font-size: 4rem; } }
   .booktable .btn {
     padding: 1.5rem 6rem; }
 
 footer {
   margin-bottom: 10rem;
   color: #fff; }
+  @media screen and (max-width: 376px) {
+    footer .container > div {
+      margin-bottom: 3rem; } }
   footer .container {
     display: flex;
     justify-content: space-between;

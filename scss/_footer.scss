@@ -1,4 +1,11 @@
 footer {
+
+
+    @media screen and (max-width: $bp-mobile) {
+        .container > div {
+            margin-bottom: 3rem;
+        }
+     }
     margin-bottom: 10rem;
 
     color: #fff;
